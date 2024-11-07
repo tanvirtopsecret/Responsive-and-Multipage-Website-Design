@@ -1,0 +1,481 @@
+/* 
+  ##Device = Galaxy Fold Screen Rasulation
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  
+    /* CSS */
+    .container{
+        width: 93%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 15px;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar li a{
+        font-size: 9px;
+        margin: 10px 0px 0px 10px;
+    }
+    .banner{
+        padding: 30px 0px;
+    }
+    .banner h1{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        font-size: 9px;
+        line-height: 1.7em;
+    }
+    .banner img{
+        width: 90%;
+    }
+    .success{
+        padding: 30px 0px 30px;
+    }
+    .left-success{
+        text-align: left;
+    }
+    .left-success h1{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 9px;
+        line-height: 1.7em;
+    }
+    .right-success h1{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+    .feature-inner{
+        width: 90%;
+        float: left;
+        padding: 40px 15px;
+        margin: 0px 0px 15px;
+        text-align: center;
+    }
+    .feature-inner h4{
+        font-size: 10px;
+        line-height: 1.2em;
+    }
+    .feature-inner p{
+        font-size: 9px;
+        line-height: 1.7em;
+    }
+    .footer p{
+        font-size: 9px;
+        line-height: 1.7em;
+    }
+    .about-section h1{
+        font-size: 25px;
+        line-height: 1.2em;
+        text-align: center;
+    }
+    .about-section h3, h4{
+        font-size: 10px;
+        line-height: 1.2em;
+    }
+    .about-section p{
+        font-size: 9px;
+        line-height: 1.7em;
+    }
+    .contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 100px;
+	}
+    .content h1,h2{
+        font-size: 25px;
+        line-height: 1.2em;
+        padding: 60px 0px 60px;
+    }
+
+    
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    .container{
+        width: 93%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 15px;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar li a{
+        font-size: 11px;
+        margin: 10px 0px 0px 10px;
+    }
+    .banner{
+        padding: 30px 0px;
+    }
+    .banner h1{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        font-size: 11px;
+        line-height: 1.7em;
+    }
+    .banner img{
+        width: 90%;
+    }
+    .success{
+        padding: 30px 0px 30px;
+    }
+    .left-success{
+        text-align: left;
+    }
+    .left-success h1{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 11px;
+        line-height: 1.7em;
+    }
+    .right-success h1{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .feature-inner{
+        width: 90%;
+        float: left;
+        padding: 40px 15px;
+        margin: 0px 0px 15px;
+        text-align: center;
+    }
+    .feature-inner h4{
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+    .feature-inner p{
+        font-size: 11px;
+        line-height: 1.7em;
+    }
+    .footer p{
+        font-size: 11px;
+        line-height: 1.7em;
+    }
+    .about-section h1{
+        font-size: 30px;
+        line-height: 1.2em;
+        text-align: center;
+    }
+    .about-section h3, h4{
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+    .about-section p{
+        font-size: 11px;
+        line-height: 1.7em;
+    }
+    .contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+    .content h1,h2{
+        font-size: 30px;
+        line-height: 1.2em;
+        padding: 60px 0px 60px;
+    }
+    
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    .container{
+        width: 93%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 20px;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar li a{
+        font-size: 12px;
+        margin: 15px 0px 0px 15px;
+    }
+    .banner{
+        padding: 35px 0px;
+    }
+    .banner h1{
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+    .banner img{
+        width: 90%;
+    }
+    .success{
+        padding: 35px 0px 35px;
+    }
+    .left-success{
+        text-align: left;
+    }
+    .left-success h1{
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+    .right-success h1{
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+    .feature-inner{
+        width: 90%;
+        float: left;
+        padding: 45px 20px;
+        margin: 0px 0px 20px;
+        text-align: center;
+    }
+    .feature-inner h4{
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    .feature-inner p{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+    .footer p{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+    .about-section h1{
+        font-size: 32px;
+        line-height: 1.2em;
+        text-align: center;
+    }
+    .about-section h3, h4{
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    .about-section p{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+    .contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+    .content h1,h2{
+        font-size: 32px;
+        line-height: 1.2em;
+        padding: 60px 0px 60px;
+    }
+    
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+    .container{
+        width: 93%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 25px;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar li a{
+        font-size: 14px;
+        margin: 20px 0px 0px 20px;
+    }
+    .banner{
+        padding: 40px 0px;
+    }
+    .banner h1{
+        font-size: 34px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+    .banner img{
+        width: 90%;
+    }
+    .success{
+        padding: 40px 0px 40px;
+    }
+    .left-success{
+        text-align: center;
+    }
+    .left-success h1{
+        font-size: 34px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+    .right-success{
+        text-align: center;
+    }
+    .right-success h1{
+        font-size: 34px;
+        line-height: 1.2em;
+    }
+    .feature-inner{
+        width: 90%;
+        float: left;
+        padding: 50px 25px;
+        margin: 0px 0px 25px;
+        text-align: center;
+    }
+    .feature-inner h4{
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+    .feature-inner p{
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+    .footer p{
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+    .about-section h1{
+        font-size: 34px;
+        line-height: 1.2em;
+        text-align: center;
+    }
+    .about-section h3, h4{
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+    .about-section p{
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+    .contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 300px;
+	}
+    .right .btn{
+        width: 104%;
+    }
+    .content h1,h2{
+        font-size: 34px;
+        line-height: 1.2em;
+        padding: 60px 0px 60px;
+    }
+    
+}
