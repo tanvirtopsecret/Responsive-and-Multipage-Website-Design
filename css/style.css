@@ -70,6 +70,13 @@ a, a:hover{
     text-transform: capitalize;
     color: #1C315F;
     margin: 10px 0px 0px 35px;
+    transition: 0.5s ease-in;
+}
+.navbar li a:hover{
+    color: #008AFF;
+}
+.navbar li a:active{
+    color: #008AFF;
 }
 /* Header End */
 /* Banner Section Start */
@@ -237,14 +244,16 @@ a, a:hover{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #fff;
-	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+	background-color: #ddd;
+    border-radius: 15px;
+	box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.30);
 }
 
-.left{
-	background: url("../img/contact.jpg") no-repeat center;
-	background-size: cover;
-	height: 100%;
+.left {
+    background: url("../img/contact.jpg") no-repeat center;
+    border-radius: 15px;
+    background-size: cover;
+    height: 100%;
 }
 
 .right{
@@ -274,7 +283,8 @@ a, a:hover{
 
 .right .field{
 	width: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
+	border: 2px solid rgba(0, 138, 255, 0.30) ;
+    border-radius: 15px;
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
@@ -298,6 +308,7 @@ a, a:hover{
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
+    border-radius: 15px;
 	outline: none;
 	cursor: pointer;
 	transition: .3s;
