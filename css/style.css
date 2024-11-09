@@ -50,6 +50,8 @@ a, a:hover{
     float: left;
     padding: 10px 0px;
     border-bottom: 1px solid #eee;
+    background: #fff;
+    position: fixed;
 }
 .logo{
     display: block;
